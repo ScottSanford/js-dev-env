@@ -3,6 +3,8 @@
 	"version": "1.0.0",
 	"description": "JavaScript development environment",
 	"scripts": {
+		"prestart": "node buildScripts/startMessage",
+		"start": "node buildScripts/srcServer"
 	},
 	"author": "Scott Sanford",
 	"license": "MIT",
